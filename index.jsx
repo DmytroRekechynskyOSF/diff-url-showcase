@@ -184,6 +184,9 @@ const Cart = () => {
     }
     /**************** Wishlist ****************/
 
+    console.log('Hello OSF!')
+    console.log('Not really useful example, but you got the idea')
+
     /***************************** Update Cart **************************/
     const handleUpdateCart = async (variant, quantity) => {
         // close the modal before handle the change
